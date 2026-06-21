@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Team | in</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <img src="logo.jpg" class="logo" alt="Business Team Logo">
+    <h1>Business Team | in</h1>
+    <p id="slogan">Worldwide Connection, Professional Service</p>
+    <div class="lang">
+      <button onclick="setLang('am')">አማርኛ</button>
+      <button onclick="setLang('en')">English</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2 data-am="መረጃ እና መመሪያዎች" data-en="Information & Guidelines">መረጃ እና መመሪያዎች</h2>
+      <div class="info"><span>✅</span><p data-am="100+ Connections ያለው አካውንት ይመከራል።" data-en="Accounts with 100+ connections are recommended.">100+ Connections ያለው አካውንት ይመከራል።</p></div>
+      <div class="info"><span>⚠️</span><p data-am="Weekly limit ካለ በፊት ያሳውቁን።" data-en="Please inform us first if the account has a weekly limit.">Weekly limit ካለ በፊት ያሳውቁን።</p></div>
+      <div class="info"><span>🔒</span><p data-am="ለደህንነት ሲባል ፓስዎርድ በዌብሳይት አይሰበሰብም። ከ Admin ጋር በቴሌግራም ብቻ ይነጋገሩ።" data-en="For safety, this website does not collect passwords. Please discuss access only with the Telegram admin.">ለደህንነት ሲባል ፓስዎርድ በዌብሳይት አይሰበሰብም። ከ Admin ጋር በቴሌግራም ብቻ ይነጋገሩ።</p></div>
+      <div class="info"><span>📅</span><p data-am="ክፍያ በሳምንት አንድ ጊዜ ይፈጸማል።" data-en="Payment is processed once per week.">ክፍያ በሳምንት አንድ ጊዜ ይፈጸማል።</p></div>
+    </section>
+
+    <section class="card">
+      <h2 data-am="አካውንትዎን ያስመዝግቡ" data-en="Register Your Account">አካውንትዎን ያስመዝግቡ</h2>
+      <form id="regForm">
+        <label data-am="ሙሉ ስም" data-en="Full Name">ሙሉ ስም</label>
+        <input id="name" required>
+        <label data-am="ስልክ ቁጥር" data-en="Phone Number">ስልክ ቁጥር</label>
+        <input id="phone" required>
+        <label data-am="ኢሜይል / አካውንት" data-en="Email / Account">ኢሜይል / አካውንት</label>
+        <input id="email" required>
+        <label data-am="Connections" data-en="Connections">Connections</label>
+        <input id="connections" required>
+        <label data-am="Account Age / Year" data-en="Account Age / Year">Account Age / Year</label>
+        <input id="age" required>
+        <label data-am="መልዕክት" data-en="Message">መልዕክት</label>
+        <textarea id="note" rows="4"></textarea>
+        <button type="submit" data-am="መረጃዬን በቴሌግራም ላክ" data-en="Send My Info on Telegram">መረጃዬን በቴሌግራም ላክ</button>
+      </form>
+      <div class="links">
+        <a href="https://t.me/linkBussinessteam">Telegram Channel</a>
+        <a href="https://t.me/Bussinessteam23">Admin</a>
+        <a href="dashboard.html">Admin Dashboard</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="logo.jpg" class="footer-logo">
+    <p>© 2026 Business Team | in</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
