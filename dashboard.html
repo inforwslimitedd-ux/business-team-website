@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Business Team | in</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero small">
+  <img src="logo.jpg" class="logo">
+  <h1>Admin Dashboard</h1>
+  <p>Business Team | in</p>
+</header>
+<main>
+<section class="card">
+  <h2>Submitted Leads</h2>
+  <p class="safe">This simple dashboard shows submissions saved on this browser only. For a real online dashboard, connect Firebase/Supabase.</p>
+  <div class="dash-actions">
+    <button onclick="loadLeads()">Refresh</button>
+    <button onclick="clearLeads()">Clear</button>
+    <a href="index.html">Back to Website</a>
+  </div>
+  <div id="leads"></div>
+</section>
+</main>
+<script src="dashboard.js"></script>
+</body>
+</html>
